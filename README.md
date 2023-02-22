@@ -1,9 +1,11 @@
 ### 项目启动
+```
 npm i -g pnpm // 全局安装 pnpm
 pnpm install // 安装依赖
 pnpm dev // 开发
 pnpm build // 打包
 pnpm preview
+```
 
 ### vite 识别 sass 全局变量
 
