@@ -1,6 +1,13 @@
 {
-    "**/*.{js,ts,tsx,jsx,vue}": [
+    "src/*.{js,ts,tsx,jsx,vue}": [
         "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
         "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix"
+    ],
+    "src/*.{css,less,scss}": [
+        "stylelint",
+        "prettier --write --ignore-unknown"
+    ],
+    "src/*.{json,html}": [
+        "prettier --write --ignore-unknown"
     ]
 }
