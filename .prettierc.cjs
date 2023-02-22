@@ -9,7 +9,7 @@ module.exports = {
         }
     ],
     printWidth: 100, // 一行最多 100 字符
-    tabWidth: 2, // 使用 4 个空格缩进
+    tabWidth: 4, // 使用 4 个空格缩进
     semi: false, // 行尾需要有分号
     singleQuote: true, // 使用单引号而不是双引号
     useTabs: false, // 用制表符而不是空格缩进行

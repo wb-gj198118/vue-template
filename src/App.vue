@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-console.log('查看全局环境', import.meta.env);
+console.log("查看全局环境", import.meta.env);
 </script>
 
 <template>
